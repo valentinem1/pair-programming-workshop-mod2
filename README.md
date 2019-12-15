@@ -1,5 +1,14 @@
 # README
-The goal is to create a Restaurant model, view, and controller. 
+
+##Deliverables
+The goal is to create a Restaurant model, view, and controller. The app should have the following functionalities:
+* display a list of all restaurants' names in the restaurants index page
+* the names of the restaurants should be clickable to the restaurant's show page
+* in the show page, the information of the restaurant (address information) should be displayed
+
+##Bonus Deliverables 
+* A button or link should exist in the show page to redirect back to the index page.
+* Implemenet a new functionality of creating a restaurant
 
 ##Create a model
 In the terminal, run
@@ -14,3 +23,5 @@ In the terminal, run
 The controller generator also generates view pages for us. The final step is to run,
 `rails db:migrate`
 `rails db:seed`
+
+There are already examples in the seeds.rb. 
